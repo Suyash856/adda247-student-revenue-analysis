@@ -1,0 +1,42 @@
+STUDENT COURSE REVENUE ANALYSIS — SYNTHETIC DATA
+Rows: 40 | Unique order IDs: 40
+
+Missing values by column:
+order_id               0
+user_id                0
+exam_category          0
+acquisition_channel    0
+order_date             0
+amount_inr             0
+status                 0
+Duplicate order IDs: 0
+
+Order status mix:
+status
+SUCCESS     32
+FAILED       4
+FREE         2
+REFUNDED     2
+
+Successful paid orders: 32
+Successful paid revenue: ₹27,768
+Average successful order value: ₹867.75
+
+Revenue by exam category:
+exam_category  successful_orders  revenue_inr
+      Banking                 10        12990
+          SSC                 11         8789
+     Teaching                  5         2995
+     Railways                  6         2994
+
+Revenue by acquisition channel:
+acquisition_channel  successful_orders  revenue_inr
+           Paid Ads                  8         7292
+           Referral                  8         7192
+     Organic Search                  8         6892
+            YouTube                  8         6392
+
+Interpretation caution:
+- These rows are synthetic and too small for business decisions.
+- Revenue by channel is not ROI; no spend or traffic data is provided.
+- Correlation or group differences do not prove that a channel caused purchases.
